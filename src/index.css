@@ -50,6 +50,12 @@ h1 {
   text-decoration:underline #56ca20;
 }
 
+#fj{
+  margin-right: 80px;
+}
+#fi{
+  margin-left: 80px;
+}
 h2 {
   font: 2em sans-serif;
   border: 1px solid black;
@@ -141,5 +147,12 @@ h3{
   height: 100px;
   width: 100px;
   margin: 4px;
+}
+  
+#fj{
+  margin-right: 0px;
+}
+#fi{
+  margin-left: 0px;
 }
 }
