@@ -1,0 +1,145 @@
+/* General styles */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: brown;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* Universal selector */
+* {
+  background-color: rgb(60, 227, 210);
+  text-align: center;
+}
+
+/* Main container */
+main {
+  display: flex;
+  justify-content: center;
+}
+
+/* Screen class */
+.screen {
+  border-radius: 1px;
+  /* height: 700px; */
+  border: 6px solid rgb(45, 234, 7);
+  /* max-width: 600px; */
+}
+
+/* Container class */
+.container {
+  max-width: 2000px;
+  margin: 0 auto; /* Center the container */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+/* Header styles */
+h1 {
+  margin-top: 10px;
+  color: #FF5733;
+  font: 4em sans-serif;
+  /* background-color: #2e4a2f; */
+  text-decoration:underline #56ca20;
+}
+
+h2 {
+  font: 2em sans-serif;
+  border: 1px solid black;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: rgb(255, 0, 217);
+}
+h3{
+  font: 2em sans-serif;
+}
+
+/* Stats */
+.stats {
+  margin-top: 10px;
+  font-size: 1em;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+#i,#r{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+/* Restart button */
+#re {
+  margin-top: 10px;
+  margin-bottom: 150px;
+  border: 1px solid green;
+  border-radius: 10px;
+  font: 1em sans-serif;
+  background-color: chartreuse;
+  height: 50px;
+  width: 100px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#re:hover {
+  background-color: limegreen;
+  transform: scale(1.1);
+}
+.pho{
+  height: 180px;
+  width: 180px;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  margin: 4px;
+  background-color: darkcyan;
+  border: 1px solid wheat;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.box:hover {
+  background-image: linear-gradient(to right, #feb47b, #ff7e5f); 
+  background-color: #005f6b;
+  /* transform: rotate(180deg); */
+  border-color: #45a049;
+  color: #2e4a2f;
+  text-shadow: 2px 2px 4px #000000;
+}
+@media only screen and (max-width: 600px) {
+  h2{
+    font: 1.5em sans-serif;
+  }
+  h1{
+    font: 2em sans-serif;
+  }
+  h3{
+    font: 1.5em sans-serif;
+  }
+.container {
+  max-width: 400px;
+}
+.pho{
+  height: 87px;
+  width: 87px;
+}
+.box {
+  height: 100px;
+  width: 100px;
+  margin: 4px;
+}
+}
