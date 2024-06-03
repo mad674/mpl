@@ -126,8 +126,8 @@ function App() {
         Match The Movie-Pair's
       </h1>
       <div className="stats">
-        <h2>Moves Taken: {moves}</h2>
-        <h2>Pairs Matched: {matches}/6</h2>
+        <h2 id="fj">Moves Taken: {moves}</h2>
+        <h2 id="fi">Pairs Matched: {matches}/6</h2>
       </div>
       <div id="i">
         <h3 style={{ color: 'blue', font: '1em' }}>{message}</h3>
